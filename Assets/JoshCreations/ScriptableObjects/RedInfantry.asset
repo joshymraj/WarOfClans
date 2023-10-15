@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed005c3aef6dd4c3a9d0c8de7bfa2f72, type: 3}
+  m_Name: RedInfantry
+  m_EditorClassIdentifier: 
+  infantryPrefab: {fileID: 7477978738133416978, guid: 46628851bff3fa341a13534728534ea3,
+    type: 3}
+  infantryUI: {fileID: 21300000, guid: bc6fa081f10d5439b8f4dbace15268d5, type: 3}
+  clan: 0
+  placeableType: 0
+  infantryData:
+    armourStrength: 0
+    maxMovementSpeed: 2.5
+    minAttackSpeed: 1.8
+    maxAttackSpeed: 1.2
+    attackRange: 2.5
+    damagePerAttack: 6
